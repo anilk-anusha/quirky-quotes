@@ -1,38 +1,97 @@
-.App {
+/* App.css */
+
+body {
+  font-family: 'Lexend', sans-serif;
+  background-color: #e0fdfb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #7bd3cd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 28px;
+
+}
+
+h1 {
+  margin: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  margin: 15px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#email,
+#password,
+#displayName,
+#birthdate {
+  padding: 10px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: auto;
+  margin-top: 20px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#signUpText {
+  text-align: center;
+}
+
+.checkbox-label {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.checkbox {
+  margin-right: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#submitBtn,
+#LogoutBtn {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: 'Lexend', sans-serif;
+
+}
+
+#submitBtn {
+  background-color: #4caf50;
+}
+
+#LogoutBtn {
+  background-color: #5f1540;
+}
+
+.button:hover {
+  background-color: #1a441c;
 }
