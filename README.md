@@ -1,4 +1,4 @@
-# Quirky Quotes - Birthday Quote Generator 
+# Quirky Quotes V2.0 - Birthday Quote Generator 
 
 - This quote generator is built in React JS.  
 
@@ -9,6 +9,7 @@
 - [Technologies](#technologies)
 - [Screenshots](#screenshots)
 - [Status](#status)
+- [Version 1](#version-1)
 - [References](#references)
 
 ##  Demo Video
@@ -25,7 +26,7 @@ In the project directory, you can run:
 
 #### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 #### `npm test`
@@ -49,7 +50,9 @@ Note: this is a one-way operation. Once you `eject`, you can't go back!
 
 ## Screenshots
 
+## Version 1.0
 
+Quirky Quotes Version 1 can be viewed at [birthdayQuoteGenerator](https://github.com/anilk-anusha/birthdayQuoteGenerator)
 
 ## Status
 
