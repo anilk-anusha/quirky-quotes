@@ -56,7 +56,7 @@ Quirky Quotes Version 1 can be viewed at [birthdayQuoteGenerator](https://github
 
 ## Status
 
-Project Status: Inprogress, hosting pending.
+Project Status: Completed for local setup. In progress, hosting pending.
 
 ## References
 
